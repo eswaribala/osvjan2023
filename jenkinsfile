@@ -12,7 +12,7 @@ pipeline{
    
        steps{
        
-          bat "mvn -f clean install -DskipTests"
+          bat "mvn  clean install -DskipTests"
           bat "docker-compose up -d"
                                    
        }
