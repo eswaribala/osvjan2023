@@ -30,7 +30,7 @@ services:
         window: 50s
     ports:
        #- 8060-8070:7070
-        - 6062:6062
+        - 6064:6062
     volumes:
       - /data/compose-app
     environment:
